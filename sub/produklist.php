@@ -54,7 +54,7 @@
    	<div class="row header-inner">
 
 	      <div class="logo">
-	         <a href="./index.html">Produk barang</a>
+	         <a href="./index.php">Produk barang</a>
 	      </div>
 
 	      <nav id="nav-wrap">         
@@ -69,11 +69,11 @@
          	</a>         
 
 	         <ul id="nav" class="nav">
-	            <li><a href="../indexuser.html#hero">Home.</a></li>
-	            <li class="current"><a href="../indexuser.html#about">Produk.</a></li>
-	            <li><a href="../indexuser.html#journal">Transaksi.  </a></li>	
-                 <li><a href="./keranjang.html">Keranjang Belanja.  </a></li>	
-	            <li><a  href="../index.html">Logout.</a></li>
+	            <li><a href="../indexuser.php#hero">Home.</a></li>
+	            <li class="current"><a href="../indexuser.php#about">Produk.</a></li>
+	            <li><a href="../indexuser.php#journal">Transaksi.  </a></li>	
+                 <li><a href="./keranjang.php">Keranjang Belanja.  </a></li>	
+	            <li><a  href="../index.php">Logout.</a></li>
 	         </ul> 
 
 	      </nav> <!-- /nav-wrap -->	      
@@ -123,7 +123,7 @@
                               <td class="center">20000</td>
                               <td class="center">40000</td>
                                <td class="center">
-                                    <p><a class="button stroke orange" href="../sub/ulas.html">Ulas</a></p>
+                                    <p><a class="button stroke orange" href="../sub/ulas.php">Ulas</a></p>
                               </td>
                               
                           </tr>
@@ -134,7 +134,7 @@
                               <td class="center">20000</td>
                               <td class="center">40000</td>
                                <td class="center">
-                                    <p><a class="button stroke orange" href="../sub/ulas.html">Ulas</a></p>
+                                    <p><a class="button stroke orange" href="../sub/ulas.php">Ulas</a></p>
                               </td>
                               
                           </tr>

@@ -54,7 +54,7 @@
    	<div class="row header-inner">
 
 	      <div class="logo">
-	         <a href="./index.html">Puremedia.</a>
+	         <a href="./index.php">Puremedia.</a>
 	      </div>
 
 	      <nav id="nav-wrap">         
@@ -69,11 +69,11 @@
          	</a>         
 
 	         <ul id="nav" class="nav">
-	            <li><a href="../indexuser.html#hero">Home.</a></li>
-	            <li><a href="../indexuser.html#about">Produk.</a></li>
-	            <li class="current"><a href="../index.html#journal">Transaksi.  </a></li>	
-                 <li><a href="./keranjang.html">Keranjang Belanja.  </a></li>
-	            <li><a  href="../index.html">Logout.</a></li>
+	            <li><a href="../indexuser.php#hero">Home.</a></li>
+	            <li><a href="../indexuser.php#about">Produk.</a></li>
+	            <li class="current"><a href="../index.php#journal">Transaksi.  </a></li>	
+                 <li><a href="./keranjang.php">Keranjang Belanja.  </a></li>
+	            <li><a  href="../index.php">Logout.</a></li>
 	         </ul> 
 
 	      </nav> <!-- /nav-wrap -->	      
@@ -133,7 +133,7 @@
                               <td>10</td>
                               <td>08551123695</td>
                               <td>
-                                    <p><a class="button stroke orange" href="../sub/ulas.html">Ulas</a></p>
+                                    <p><a class="button stroke orange" href="../sub/ulas.php">Ulas</a></p>
                               </td>
                               
                           </tr>
@@ -146,7 +146,7 @@
                               <td>10</td>
                               <td>08551123695</td>
                               <td>
-                                    <p><a class="button stroke orange" href="../sub/ulas.html">Ulas</a></p>
+                                    <p><a class="button stroke orange" href="../sub/ulas.php">Ulas</a></p>
                               </td>
                               
                           </tr>
@@ -208,7 +208,7 @@
                               <td>DPKA484616155</td>
                               <td>JNE OKE</td>
                               <td>
-                                    <p><a class="button stroke orange" href="../sub/produklist.html">Daftar produk</a></p>
+                                    <p><a class="button stroke orange" href="../sub/produklist.php">Daftar produk</a></p>
                               </td>
                                 
                           </tr>
@@ -223,7 +223,7 @@
                               <td>DPKA484616155</td>
                               <td>JNE OKE</td>
                               <td>
-                                    <p><a class="button stroke orange" href="../sub/produklist.html">Daftar produk</a></p>
+                                    <p><a class="button stroke orange" href="../sub/produklist.php">Daftar produk</a></p>
                               </td>
                           </tr>
                     </table> 

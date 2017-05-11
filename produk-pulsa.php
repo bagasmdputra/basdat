@@ -129,7 +129,7 @@
 						<button class="btn btn-default" type="submit" value="submit">Submit</button>
 					</div>
 				</div>
-				<div class="form-group">
+	
 			</form>
 			</section>
 
@@ -208,8 +208,7 @@
 <script src="js/waypoints.js"></script>
 <script src="js/main.js"></script>
 
-</body>
-</html>
-		</div>
+
+		
 	</body>
 </html>

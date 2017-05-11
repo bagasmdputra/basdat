@@ -68,8 +68,8 @@
 	            <li class="current"><a class="smoothscroll" href="#hero">Home.</a></li>
 	            <li><a class="smoothscroll" href="#about">Produk.</a></li>
 	            <li><a class="smoothscroll" href="#journal">Transaksi.</a></li>	
-                 <li><a href="./sub/keranjang.html">Keranjang Belanja.</a></li>	
-	            <li><a href="./index.html">Logout.</a></li>
+                 <li><a href="./sub/keranjang.php">Keranjang Belanja.</a></li>	
+	            <li><a href="./index.php">Logout.</a></li>
 	         </ul> 
 
 	      </nav> <!-- /nav-wrap -->	      
@@ -148,7 +148,7 @@
 
       	<div class="mob-whole six columns left">
 
-      		<a href="./sub/formtoko.html" class="button primary  full-width" >Barang</a>
+      		<a href="./sub/formtoko.php" class="button primary  full-width" >Barang</a>
 
 
 
@@ -156,7 +156,7 @@
 
       	<div class="mob-whole six columns right">
             
-            <a href="./sub/pulsa.html" class="button primary  full-width">Pulsa</a>
+            <a href="./sub/pulsa.php" class="button primary  full-width">Pulsa</a>
 	      	
 
       	</div> <!-- /right -->
@@ -180,7 +180,7 @@
 
             <h1>Cek Transaksi terbaru Anda<span>.</span></h1>
            <div class="flex-caption">
-                <p><a class="button stroke orange" href="sub/transaksi.html">Cek Transaksi</a></p>
+                <p><a class="button stroke orange" href="sub/transaksi.php">Cek Transaksi</a></p>
             </div>
 
 			   <hr/>
