@@ -9,7 +9,7 @@
    ================================================== -->
     <meta charset="utf-8">
 	<title>Daftar transaksi</title>
-	<meta name="description" content="">  
+	<meta name="description" content="">
 	<meta name="author" content="">
 
    <!-- Mobile Specific Metas
@@ -19,16 +19,16 @@
 	<!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="../css/base.css">
-	<link rel="stylesheet" href="../css/main.css">
-    <link rel="stylesheet" href="../css/media-queries.css">  
-    <link rel="stylesheet" href="../css/tabcontent.css">  
-    <link rel="stylesheet" href="../css/modal.css">  
-    <link rel="stylesheet" href="../css/pagination.css">  
+	  <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/media-queries.css">
+    <link rel="stylesheet" href="../css/tabcontent.css">
+    <link rel="stylesheet" href="../css/modal.css">
+    <link rel="stylesheet" href="../css/pagination.css">
 
    <!-- Script
    =================================================== -->
 	<script src="./js/modernizr.js"></script>
-	
+
 
 
    <!-- Favicons
@@ -40,7 +40,7 @@
 <body>
 
 	<div id="top"></div>
-   <div id="preloader"> 
+   <div id="preloader">
 	   <div id="status">
          <img src="./images/loader.gif" height="60" width="60" alt="">
          <div class="loader">Loading...</div>
@@ -57,8 +57,8 @@
 	         <a href="./index.php">Produk barang</a>
 	      </div>
 
-	      <nav id="nav-wrap">         
-	         
+	      <nav id="nav-wrap">
+
 	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
 	         	<span class='menu-text'>Show Menu</span>
 	         	<span class="menu-icon"></span>
@@ -66,17 +66,17 @@
          	<a class="mobile-btn" href="#" title="Hide navigation">
          		<span class='menu-text'>Hide Menu</span>
          		<span class="menu-icon"></span>
-         	</a>         
+         	</a>
 
 	         <ul id="nav" class="nav">
 	            <li><a href="../indexuser.php#hero">Home.</a></li>
 	            <li class="current"><a href="../indexuser.php#about">Produk.</a></li>
-	            <li><a href="../indexuser.php#journal">Transaksi.  </a></li>	
-                 <li><a href="./keranjang.php">Keranjang Belanja.  </a></li>	
+	            <li><a href="../indexuser.php#journal">Transaksi.  </a></li>
+                 <li><a href="./keranjang.php">Keranjang Belanja.  </a></li>
 	            <li><a  href="../index.php">Logout.</a></li>
-	         </ul> 
+	         </ul>
 
-	      </nav> <!-- /nav-wrap -->	      
+	      </nav> <!-- /nav-wrap -->
 
 	   </div> <!-- /header-inner -->
 
@@ -85,8 +85,8 @@
 
    <!-- Page Title
    ================================================== -->
-   <section id="page-title">	
-   	  
+   <section id="page-title">
+
 		<div class="row">
 
 			<div class="twelve columns">
@@ -94,9 +94,9 @@
 				<h1>Daftar Produk Barang<span>.</span></h1>
 				<p>Aenean condimentum lacus sit amet luctus lobortis.</p>
 
-			</div>			    
+			</div>
 
-		</div> <!-- /row -->	   
+		</div> <!-- /row -->
 
    </section> <!-- /page-title -->
 
@@ -105,7 +105,7 @@
    ================================================== -->
    <section id="content">
         <div class="row">
-            
+
                   <table style="width:100%">
                           <caption>Pilihan Barang</caption>
                           <tr>
@@ -131,7 +131,7 @@
                               <td>
                                     <p class="center"><a class="button stroke orange" href="../sub/beli.php">Beli</a></p>
                               </td>
-                              
+
                           </tr>
                            <tr>
                               <td>P00000001</td>
@@ -145,7 +145,7 @@
                               <td>
                                     <p class="center"><a class="button stroke orange" href="../sub/beli.php">Beli</a></p>
                               </td>
-                              
+
                           </tr>
 
                     </table>
@@ -156,26 +156,26 @@
                       <a href="#">&raquo;</a>
                     </div>
                 </div>
-                
+
                 <p><br></p>
 
 
         </div>
-   </section> <!-- /content -->  
+   </section> <!-- /content -->
 
 
  <footer>
 
-      <div class="row">       
+      <div class="row">
 
          <div class="six columns tab-whole footer-about">
-				
+
 				<h3>About TokoKeren</h3>
-               
-            <p>TokoKeren adalah suatu penghubung masyarakat dengan produk yang ingin dibeli dengan cara yang sangat mudah. 
+
+            <p>TokoKeren adalah suatu penghubung masyarakat dengan produk yang ingin dibeli dengan cara yang sangat mudah.
             </p>
 
-            <p>Akan selalu menampilkan yang terbaik untuk seluruhnya.</p>        
+            <p>Akan selalu menampilkan yang terbaik untuk seluruhnya.</p>
 
          </div> <!-- /footer-about -->
 
@@ -195,8 +195,8 @@
                     <li><a href="tel:6473438234">647.343.8234</a></li>
                     <li><a href="tel:1234567890">123.456.7890</a></li>
                     <li><a href="mailto:someone@puremedia.com">someone@puremedia.com</a></li>
-                  </ul>                  
-               </div> <!-- /columns -->             
+                  </ul>
+               </div> <!-- /columns -->
 
                <div class="columns last">
                   <h3 class="contact">Follow Us</h3>
@@ -209,13 +209,13 @@
                      <li><a href="#">Flickr</a></li>
                      <li><a href="#">Skype</a></li>
                   </ul>
-                  
-               </div> <!-- /columns --> 
+
+               </div> <!-- /columns -->
 
             </div> <!-- /Row(nested) -->
 
          </div>
-   
+
 
          <div id="go-top">
             <a class="smoothscroll" title="Back to Top" href="#hero"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
@@ -230,11 +230,11 @@
    ================================================== -->
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="../js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>   
+   <script type="text/javascript" src="../js/jquery-migrate-1.2.1.min.js"></script>
    <script src="../js/jquery.flexslider.js"></script>
    <script src="../js/jquery.fittext.js"></script>
-   <script src="../js/backstretch.js"></script> 
-   <script src="../js/waypoints.js"></script>  
+   <script src="../js/backstretch.js"></script>
+   <script src="../js/waypoints.js"></script>
    <script src="../js/main.js"></script>
    <script src="../js/multitab.js"></script>
     <script src="../js/modal.js"></script>
