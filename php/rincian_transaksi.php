@@ -28,7 +28,7 @@
             
             $kode_produk = $myrow['kode_produk'];
             $ulasan = "<button type=\"submit\" disabled>Ulas</button>";
-            
+                
             if(is_null($myrow['komentar'])){
                 $ulasan = "<p><a class=\"button stroke orange\" href=\"../sub/ulas.php?kode_produk=$kode_produk\">Ulas</a></p>";
             }
