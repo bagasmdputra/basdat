@@ -71,7 +71,7 @@
 	         <ul id="nav" class="nav">
 	            <li><a href="../indexuser.php#hero">Home.</a></li>
 	            <li><a href="../indexuser.php#about">Produk.</a></li>
-	            <li class="current"><a href="../index.php#journal">Transaksi.  </a></li>	
+	            <li class="current"><a href="../indexuser.php#journal">Transaksi.  </a></li>	
                  <li><a href="./keranjang.php">Keranjang Belanja.  </a></li>
 	            <li><a  href="../index.php">Logout.</a></li>
 	         </ul> 
@@ -122,7 +122,6 @@
                               <th>Total Bayar</th>
                               <th>Nominal</th>
                               <th>Nomor</th>
-                              <th>Ulasan</th>
                           </tr>
                           <tr>
                               <td>V000000001</td>
@@ -132,9 +131,6 @@
                               <td>12000</td>
                               <td>10</td>
                               <td>08551123695</td>
-                              <td>
-                                    <p><a class="button stroke orange" href="../sub/ulas.php">Ulas</a></p>
-                              </td>
                               
                           </tr>
                          <tr>
@@ -145,10 +141,6 @@
                               <td>12000</td>
                               <td>10</td>
                               <td>08551123695</td>
-                              <td>
-                                    <p><a class="button stroke orange" href="../sub/ulas.php">Ulas</a></p>
-                              </td>
-                              
                           </tr>
                     </table>
                 <div class="center">
@@ -197,35 +189,11 @@
                               <th>Jasa Kirim</th>
                               <th>Ulasan</th>
                           </tr>
-                          <tr>
-                                <td>V0000001</td>
-                                <td>Fashion Keren</td>
-                              <td>4/1/2016</td>
-                              <td>Belum dibayar</td>
-                              <td>12000</td>
-                              <td>Jalan Kemanngiisan 20</td>
-                              <td>250000</td>
-                              <td>DPKA484616155</td>
-                              <td>JNE OKE</td>
-                              <td>
-                                    <p><a class="button stroke orange" href="../sub/produklist.php">Daftar produk</a></p>
-                              </td>
-                                
-                          </tr>
-                          <tr>
-                                <td>V0000001</td>
-                                <td>Fashion Keren</td>
-                              <td>4/1/2016</td>
-                              <td>Belum dibayar</td>
-                              <td>12000</td>
-                              <td>Jalan Kemanngiisan 20</td>
-                              <td>250000</td>
-                              <td>DPKA484616155</td>
-                              <td>JNE OKE</td>
-                              <td>
-                                    <p><a class="button stroke orange" href="../sub/produklist.php">Daftar produk</a></p>
-                              </td>
-                          </tr>
+                       <?php
+                       echo 'woy';
+                            include '../php/transaksi_barang.php';
+                       ?>
+                         
                     </table> 
                 <div class="pagination">
                   <a href="#">&laquo;</a>
