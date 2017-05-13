@@ -107,7 +107,7 @@
         <div class="row">
             
                   <table style="width:100%">
-                          <caption>No Invoice : V00000001</caption>
+                          <caption>No Invoice : <?php echo $_GET['invoice_no']?></caption>
                           <tr>
                               <th>Nama Produk</th>
                               <th>Berat</th>
@@ -116,28 +116,10 @@
                               <th>Sub total</th>
                               <th>Ulasan</th>
                           </tr>
-                          <tr>
-                              <td>tas flower 1</td>
-                              <td class="center">4</td>
-                              <td class="center">2</td>
-                              <td class="center">20000</td>
-                              <td class="center">40000</td>
-                               <td class="center">
-                                    <p><a class="button stroke orange" href="../sub/ulas.php">Ulas</a></p>
-                              </td>
-                              
-                          </tr>
-                           <tr>
-                              <td>tas flower 1</td>
-                              <td class="center">4</td>
-                              <td class="center">2</td>
-                              <td class="center">20000</td>
-                              <td class="center">40000</td>
-                               <td class="center">
-                                    <p><a class="button stroke orange" href="../sub/ulas.php">Ulas</a></p>
-                              </td>
-                              
-                          </tr>
+                      
+                        <?php
+                            include '../php/rincian_transaksi.php';
+                      ?>
 
                     </table>
                 <div class="center">

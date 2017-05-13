@@ -123,25 +123,10 @@
                               <th>Nominal</th>
                               <th>Nomor</th>
                           </tr>
-                          <tr>
-                              <td>V000000001</td>
-                              <td>Pulsa IM3</td>
-                              <td>4/1/2016</td>
-                              <td>Belum dibayar</td>
-                              <td>12000</td>
-                              <td>10</td>
-                              <td>08551123695</td>
-                              
-                          </tr>
-                         <tr>
-                              <td>V000000001</td>
-                              <td>Pulsa IM3</td>
-                              <td>4/1/2016</td>
-                              <td>Belum dibayar</td>
-                              <td>12000</td>
-                              <td>10</td>
-                              <td>08551123695</td>
-                          </tr>
+                        <?php
+                            include '../php/transaksi_pulsa.php';
+                       ?>
+                         
                     </table>
                 <div class="center">
                     <div class="pagination">
@@ -190,7 +175,6 @@
                               <th>Ulasan</th>
                           </tr>
                        <?php
-                       echo 'woy';
                             include '../php/transaksi_barang.php';
                        ?>
                          
