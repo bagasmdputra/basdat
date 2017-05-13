@@ -116,7 +116,7 @@
 
 	                  <div class="six columns mob-whole">
 	                  	<label for="lamaKirim">Lama Kirim <span class="required">*</span></label>
-	      					<input name="contactEmail" type="text" id="contactEmail" placeholder="Lama Kirim" value="" />
+	      					<input name="Kirim" type="text" id="contactEmail" placeholder="Lama Kirim" value="" />
 	                  </div>
 
                   </div>
@@ -125,7 +125,7 @@
 
 	                  <div class="twelve columns">
 	                     <label  for="contactMessage">Tarif <span class="required">*</span></label>
-	                     <input name="contactMessage"  id="contactMessage" placeholder="Tarif"/>
+	                     <input name="tarif"  id="contactMessage" placeholder="Tarif"/>
 	                  </div>
 
                   </div>
@@ -234,5 +234,36 @@
    <script src="js/main.js"></script>
 
 </body>
-
 </html>
+<?php
+$contactFname = test_input($_POST["nama"]);
+if (!preg_match("/^[a-zA-Z .]*$/",$nama)) {
+$namaErr = "Hanya huruf , titik dan spasi yang diijinkan"; //
+$nama ="";
+}
+
+$Kirim = test_input($_POST["nomor"]);
+if (!preg_match("/^[0-9]*$/",$nomor)) {
+$nomorErr = "Hanya angka yang diijinkan"; //
+$nomor ="";
+}
+
+$tarif = test_input($_POST["nomor"]);
+
+if (!preg_match("/^[0-9]*$/",$nomor)) {
+$nomorErr = "Isi dengan angka";
+$nomor ="";
+}
+
+if($_POST){
+        $contactFname = $_POST['nama'];
+        $kirim = $_POST['nomor'];
+        $tarif = $_POST['nomor'];
+        if(empty($contactFname) || empty($kirim) || empty($tarif))){
+            echo '<strong>ERROR !!!! Semua Data Wajib di isi </strong>';
+        }else{
+
+        }
+    }
+
+?>
