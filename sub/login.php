@@ -1,4 +1,5 @@
 <?php
+
     session_start();
     $db = pg_connect('host=localhost dbname=muhammadazri51 user=postgres password=cplusplus123');
     if(!$db) {
@@ -9,7 +10,6 @@
       pg_query($db, $setsearchpath);
       return $db;
     }
-    print_r($_POST['login']);
     if (isset($_POST['login'])){
 
         $email = $_POST['email'];

@@ -136,7 +136,7 @@
 
       <div id="contact-form" class="twelve columns">
 
-        <form name="login" id="login" method="post" action="sub/login.php">
+        <form method="post" action="sub/login.php">
 
       		<fieldset>
 
