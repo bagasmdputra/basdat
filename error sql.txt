@@ -1,0 +1,5 @@
+
+pengguna
+INSERT INTO pengguna(email,password,nama,jenis_kelamin,tgl_lahir,no_telp,alamat) VALUES ('Estrella@gmail.com','EstrellaHopfensperger','Estrella Hopfensperger','P','28-8-1997',086764009486,'Jl Anoa 6, Depok 16425');
+
+
