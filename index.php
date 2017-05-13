@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
@@ -7,7 +8,7 @@
 
    <!--- Basic Page Needs
    ================================================== -->
-   <meta charset="utf-8">
+  <meta charset="utf-8">
 	<title>TokoKeren</title>
 	<meta name="description" content="">
 	<meta name="author" content="">
@@ -18,9 +19,9 @@
 
 	<!-- CSS
     ================================================== -->
-   <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/media-queries.css">
+  <link rel="stylesheet" href="css/media-queries.css">
 
    <!-- Script
    =================================================== -->
@@ -33,164 +34,149 @@
 </head>
 
 <body class="homepage">
-
-   <div id="preloader">
-	   <div id="status">
-         <img src="images/loader.gif" height="60" width="60" alt="">
-         <div class="loader">Loading...</div>
-      </div>
-   </div>
+  <div id="preloader">
+    <div id="status">
+      <img src="images/loader.gif" height="60" width="60" alt="">
+      <div class="loader">Loading...</div>
+    </div>
+  </div>
 
 
    <!-- Header
    =================================================== -->
-   <header id="main-header">
-
+  <header id="main-header">
    	<div class="row header-inner">
+      <nav id="nav-wrap">
+        <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+	        <span class='menu-text'>Show Menu</span>
+	        <span class="menu-icon"></span>
+	      </a>
+        <a class="mobile-btn" href="#" title="Hide navigation">
+          <span class='menu-text'>Hide Menu</span>
+         	<span class="menu-icon"></span>
+        </a>
 
+	      <ul id="nav" class="nav">
+	        <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
+	        <li><a class="smoothscroll" href="#login">Login</a></li>
+          <li><a class="smoothscroll" href="#register">Register</a></li>
+	        </ul>
 
+	    </nav> <!-- /nav-wrap -->
 
-	      <nav id="nav-wrap">
+	  </div> <!-- /header-inner -->
 
-	         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
-	         	<span class='menu-text'>Show Menu</span>
-	         	<span class="menu-icon"></span>
-	         </a>
-         	<a class="mobile-btn" href="#" title="Hide navigation">
-         		<span class='menu-text'>Hide Menu</span>
-         		<span class="menu-icon"></span>
-         	</a>
-
-	         <ul id="nav" class="nav">
-	            <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
-	            <li><a class="smoothscroll" href="#login">Login</a></li>
-              <li><a class="smoothscroll" href="#register">Register</a></li>
-	         </ul>
-
-	      </nav> <!-- /nav-wrap -->
-
-	   </div> <!-- /header-inner -->
-
-   </header>
+  </header>
 
 
    <!-- Hero
    =================================================== -->
-   <section id="hero">
+  <section id="hero">
 
 		<div class="row hero-content">
 
 			<div class="twelve columns flex-container">
 
-			   <div id="hero-slider" class="flexslider">
+			  <div id="hero-slider" class="flexslider">
 
-				   <ul class="slides">
-
-					   <!-- Slide -->
-					   <li>
-						    <div class="flex-caption">
-                  <h1 ><img src="images/logo.png" alt="" width="220px"></h1>
-								  <h1>Selamat datang di TokoKeren!</h1>
-							  </div>
-					   </li>
+				  <ul class="slides">
 
 					   <!-- Slide -->
-					   <li>
+					  <li>
+						  <div class="flex-caption">
+                <h1 ><img src="images/logo.png" alt="" width="220px"></h1>
+								<h1>Selamat datang di TokoKeren!</h1>
+							 </div>
+					  </li>
+
+					   <!-- Slide -->
+					  <li>
 							<div class="flex-caption">
                 <h1 ><img src="images/logo.png" alt="" width="220px"></h1>
 								<h1 >Toko Online terkeren di Fasilkom!</h1>
 							</div>
-					   </li>
+					  </li>
 
 					   <!-- Slide -->
-					   <li>
-						   <div class="flex-caption">
-								<h1 ><img src="images/logo.png" alt="" width="384px"></h1>
+					  <li>
+						  <div class="flex-caption">
+							  <h1 ><img src="images/logo.png" alt="" width="384px"></h1>
 								<p><a class="button stroke smoothscroll" href="#login">Click here to login</a></p>
 							</div>
-					   </li>
+					  </li>
 
-				   </ul>
+				  </ul>
 
-			   </div> <!-- .flexslider -->
+			  </div> <!-- .flexslider -->
 
-	      </div> <!-- .flex-container -->
+	    </div> <!-- .flex-container -->
 
 		</div> <!-- .hero-content -->
 
-   </section> <!-- #hero -->
+  </section> <!-- #hero -->
 
 
    <!-- Login Section
    ================================================== -->
-   <section id="login">
+  <section id="login">
 
    	<div class="row section-head">
 
    		<div class="twelve columns">
 
-	         <h1>Login to know more about us!<span>.</span></h1>
+	      <h1>Login to know more about us!<span>.</span></h1>
 
-	         <hr />
+	      <hr />
 
-	      </div>
+	    </div>
 
-      </div>
+    </div>
 
-      <div class="row form-section">
+    <div class="row form-section">
 
-      	<div id="contact-form" class="twelve columns">
+      <div id="contact-form" class="twelve columns">
 
-            <form name="contactForm" id="contactForm" method="post" action="">
+        <form name="login" id="login" method="post" action="sub/login.php">
 
-      			<fieldset>
+      		<fieldset>
 
-                  <div class="row">
+            <div class="row">
 
-	                  <div class="twelve columns mob-whole">
-	                  	<label for="contactEmail">Email <span class="required">*</span></label>
-	      					<input name="contactEmail" type="text" id="contactEmail" placeholder="Email" value="" />
-	                  </div>
+	            <div class="twelve columns mob-whole">
+	              <label for="email">Email <span class="required">*</span></label>
+	      			  <input name="email" type="text" id="email" placeholder="Email" value="" />
+	            </div>
 
-                  </div>
+            </div>
 
-                  <div class="row">
+            <div class="row">
 
-	                  <div class="twelve columns mob-whole">
-	                  	<label for="contactPassword">Password <span class="required">*</span></label>
-	      					<input name="contactPassword" type="password" id="contactPassword" placeholder="Password" value=""/>
-	                  </div>
+	            <div class="twelve columns mob-whole">
+	              <label for="password">Password <span class="required">*</span></label>
+	      				<input name="password" type="password" id="password" placeholder="Password" value=""/>
+	            </div>
 
-                  </div>
+            </div>
 
-                  <div>
-                      <!---
-                     <button class="submit full-width">Login</button>
-                     <div id="image-loader">
-                        <img src="images/loader.gif" alt="" />
-                     </div> <!-->
-                      <p><a class="button stroke orange full-width" href="indexuser.php">Login</a></p>
-                      
-                  </div>
-                  <div>
-                    <p>Didn't have an account? Register <a class="smoothscroll" href="#register">here</a></p>
-                  </div>
+            <div>
+              <button class="submit full-width">Login</button>
+              <div id="image-loader">
+                 <img src="images/loader.gif" alt="" />
+              </div>
+            </div>
+            <div>
+              <p>Didn't have an account? Register <a class="smoothscroll" href="#register">here</a></p>
+            </div>
 
-      			</fieldset>
+      		</fieldset>
 
-      		</form> <!-- /contactForm -->
+      	</form> <!-- /contactForm -->
 
-            <!-- message box -->
-            <div id="message-warning"></div>
-            <div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br />
-    			</div>
+      </div> <!-- /contact-form -->
 
-         </div> <!-- /contact-form -->
+    </div> <!-- /form-section -->
 
-      </div> <!-- /form-section -->
-
-   </section>  <!-- /contact-->
+  </section>  <!-- /contact-->
 
    <!-- Register Section
    ================================================== -->
@@ -294,12 +280,6 @@
 
       		</form> <!-- /contactForm -->
 
-            <!-- message box -->
-            <div id="message-warning"></div>
-            <div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent, thank you!<br />
-    			</div>
-
          </div> <!-- /contact-form -->
 
       </div> <!-- /form-section -->
@@ -311,16 +291,16 @@
    ================================================== -->
  <footer>
 
-      <div class="row">       
+      <div class="row">
 
          <div class="six columns tab-whole footer-about">
-				
+
 				<h3>About TokoKeren</h3>
-               
-            <p>TokoKeren adalah suatu penghubung masyarakat dengan produk yang ingin dibeli dengan cara yang sangat mudah. 
+
+            <p>TokoKeren adalah suatu penghubung masyarakat dengan produk yang ingin dibeli dengan cara yang sangat mudah.
             </p>
 
-            <p>Akan selalu menampilkan yang terbaik untuk seluruhnya.</p>        
+            <p>Akan selalu menampilkan yang terbaik untuk seluruhnya.</p>
 
          </div> <!-- /footer-about -->
 
@@ -340,8 +320,8 @@
                     <li><a href="tel:6473438234">647.343.8234</a></li>
                     <li><a href="tel:1234567890">123.456.7890</a></li>
                     <li><a href="mailto:someone@puremedia.com">someone@puremedia.com</a></li>
-                  </ul>                  
-               </div> <!-- /columns -->             
+                  </ul>
+               </div> <!-- /columns -->
 
                <div class="columns last">
                   <h3 class="contact">Follow Us</h3>
@@ -354,13 +334,13 @@
                      <li><a href="#">Flickr</a></li>
                      <li><a href="#">Skype</a></li>
                   </ul>
-                  
-               </div> <!-- /columns --> 
+
+               </div> <!-- /columns -->
 
             </div> <!-- /Row(nested) -->
 
          </div>
-   
+
 
          <div id="go-top">
             <a class="smoothscroll" title="Back to Top" href="#hero"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
